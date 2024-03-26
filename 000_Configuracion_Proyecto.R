@@ -57,14 +57,11 @@ cargar_libreria("rio")
 cargar_libreria("DT")
 cargar_libreria("ISLR")
 cargar_libreria("skimr")
-cargar_libreria("ggplot2")
 cargar_libreria("ggpubr")
 cargar_libreria("tidymodels")
 cargar_libreria("ranger")
 cargar_libreria("doParallel")
 cargar_libreria("xgboost")
-cargar_libreria("caret")
-cargar_libreria("scales")
 
 #--------------------------------------------------- Direcciones --------------------------------------------------------------
 
