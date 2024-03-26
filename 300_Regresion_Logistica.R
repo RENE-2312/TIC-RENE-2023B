@@ -13,11 +13,9 @@
 # ser un "Buen Pagador". Por lo tanto, una probabilidad alta en el modelo indica un posible mal pagador, mientras que un alto SCORE en las 
 # tablas performance sugiere un buen pagador.
 
-# Para ajustar el modelo, se utilizó la técnica de stepwise para seleccionar las variables más representativas en la identificación 
-# de malos pagadores, en base a las variables creadas en el script 201_tratamiento_identificacion_final.R, Una vez identificadas las 
-# variables mediante Stepwise, se seleccionaron aquellas menos correlacionadas, así como aquellas que proporcionaban información sobre
-# deuda, operaciones, entidades, acreedores, días de vencimiento, características idiosincráticas y estados financieros para los diferentes
-# sistemas de crédito del país. También se tuvieron en cuenta las variables por su signo y su contribución para el modelo final.
+# Se utilizó el test KS y VI para seleccionar las variables a entrar en el modelo, buscando aquellas que tenían la menor
+# correlación, así como aquellas que proporcionaban información sobre deuda, operaciones, entidades, acreedores, días de vencimiento, 
+# características idiosincráticas y estados financieros para los diferentes sistemas de crédito del país. 
 
 # ¡¡¡¡¡¡Aviso importante!!!!!
 
