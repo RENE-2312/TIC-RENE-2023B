@@ -4,7 +4,7 @@
 # dos conjuntos de datos distintos: uno para entrenar el modelo y otro para validar sus resultados. Para entrenar el modelo se realizó un 
 # rebalanceo a la base de modelamiento para tener una proporción de 80%-20% de buenos y malos, a esta base se la denomina rmod.
 
-# Las tablas performance se almacenan en un archivo de Excel, Tablas_Performance_RF.xlsx, en la carpeta de resultados, e incluyen 
+# Las tablas performance se almacenan en un archivo de Excel, Tablas_Performance_RF_VC.xlsx, en la carpeta de resultados, e incluyen 
 # métricas como KS, ROC y GINI  para cada modelo-base.
 
 # Los resultados del random forest se guardan en un archivo RData, Info_RF_VC.RData, ubicado en la subcarpeta RData de la carpeta BDD.
