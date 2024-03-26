@@ -12,9 +12,8 @@
 # Para ajustar el modelo, primero se seleccionaron las variables con mayor valor en las pruebas KS o VI. Se eligieron variables de diferente 
 # indole (Idiosincráticas, Deuda, Operaciones, Días de Vencimiento, Entidades), en donde se seleccionaron variables sin una alta correlación.
 
-# Los hiperparámetros de este modelo se seleccionaron tomando como referencia los hiperparámetros del modelo de random forest. 
-# Se realizaron diversas pruebas para la selección de la tasa de aprenidzaje del modelo (eta) y se tomo aquel valor que redujo el sobreajuste
-# del modelo.
+# Los hiperparámetros de este modelo se seleccionaron a través de una grilla de hiperparámetros para escojer el mejor modelo para nuestros datos.
+# En donde para la selección del mejor modelo se realizo validación cruzada en la base rmod (método de k-folders).
 
 # ¡¡¡¡¡¡Aviso importante!!!!!
 
