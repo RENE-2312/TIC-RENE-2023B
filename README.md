@@ -14,7 +14,7 @@ Donde:
 - $LGD$ es la severidad de la pérdida.
 - $PD$ es la probabilidad de incumplimiento.
 
-Se siguió el enfoque básico según Basilea II, lo que implica que $LGD = 45\\%$. Se determinó la probabilidad de incumplimiento a través de tres modelos de Credit Scoring: Regresión Logística (RGL), Random Forest (RF) y XGBoost (XGB), con el propósito de comparar sus resultados.
+Se siguió el enfoque básico según Basilea II, por lo que se tomo $LGD = 45\\%$ y se determinó la probabilidad de incumplimiento a través de tres modelos de Credit Scoring: Regresión Logística (RGL), Random Forest (RF) y XGBoost (XGB), con el propósito de comparar sus resultados.
 
 ## Repositorio
 
