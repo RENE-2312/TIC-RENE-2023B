@@ -12,7 +12,7 @@ Donde:
 - $LGD$ , es la severidad de la pérdida.
 - $PD$, es la probabilidad de default.
 
-En este proyecto se trabajo con el enfoque básico según Basilea II, es decir, se trabajo con una $LGD=45%$ y se determino la probabilidad de default a través de tres modelos, Regresión Logística, Random Forest y XGBoost.
+En este proyecto se trabajo con el enfoque básico según Basilea II, es decir, se trabajo con una $LGD = 45\%$  y se determino la probabilidad de default a través de tres modelos, Regresión Logística, Random Forest y XGBoost.
 
 ## Objetivo 
 Construir modelos analíticos de Machine Learning que permitan estimar la probabilidad de incumplimiento de una persona natural para hacer frente a sus obligaciones crediticias en una entidad financiera.
