@@ -1,6 +1,6 @@
 # TIC RENE 2023B
 
-## Evaluación de modelos de machine learning aplicados al cálculo de pérdidas esperadas en entidades de microfinanzas
+## *Evaluación de modelos de machine learning aplicados al cálculo de pérdidas esperadas en entidades de microfinanzas*
 
 Este repositorio contiene los códigos necesarios para replicar los resultados de mi proyecto de titulación, el cual puede ser revisado en el siguiente enlace. El objetivo principal del proyecto fue evaluar el impacto de los algoritmos de Machine Learning (Random Forest y XGBoost) en el cálculo de las pérdidas esperadas en comparación con la metodología tradicional (Logit). Para ello, se trabajó con información de microcréditos y créditos de consumo de una institución financiera ecuatoriana. Los datos necesarios para replicar los resultados se encuentran en el archivo `InfoTratamientoInicial.RData`, almacenado en la carpeta BDD de este repositorio.
 
