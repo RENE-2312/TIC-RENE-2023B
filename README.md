@@ -1,6 +1,6 @@
 # TIC RENE 2023B
 
-## Evaluación de modelos de machine learning aplicados al cálculo de pérdidas esperadas en entidades de microfinanzas
+## *Evaluación de modelos de machine learning aplicados al cálculo de pérdidas esperadas en entidades de microfinanzas*
 
 En este repositorio se presentan los codigos para replicar los resultados de mi proyecto de titulación, que puede ser revisado en el siguiente link. El proyecto consisitio en evaluar el impacto sobre el cálculo de las pérdidas esperadas que tienen los algoritmos de Machine Learning ( Random Fprest y XGBoost ) respecto a la metodología tradicional (Logit). Para ello, 
     
