@@ -1,28 +1,26 @@
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Tratamiento e Identificación  de Variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-# En este script se lleva a cabo la ingeniería de variables, abordando aspectos como idiosincrasias, estado financiero, información 
+# En este script se lleva a cabo la ingeniería de variables, abordando aspectos idiosincráticos, estado financiero, información 
 # de deuda ($), número de días de vencimiento, número de operaciones, número de entidades, número de acreedores y ratios. La información
 # generada se guarda en un archivo RData, InfoModelamiento.RData, ubicado en la subcarpeta RData de la carpeta BDD.
 
-# Además, se realiza el análisis de variables para el modelamiento futuro. Se extraen inicialmente registros de buenos y malos pagadores 
+# Además, se realiza el análisis de las variables para el modelamiento futuro. Se extraen inicialmente registros de buenos y malos pagadores 
 # de la base de modelamiento, y se aplican pruebas específicas para identificar las variables más informativas en la predicción de la 
 # variable dependiente. Estas variables se consideran candidatas para ingresar al modelo. Los resultados de este análisis se almacenan en
 # un archivo Excel, Analisis_Variables_Tratamiento_Final.xlsx, en la carpeta de Resultados.
 
 # Para la creación de nuevas variables, se utilizará exclusivamente la información de individuos clasificados como buenos y malos en el 
-# conjunto de modelado, con el objetivo de trabajar con datos completos. Esto se hace para evitar el sobreajuste al modelo y garantizar que
-# los resultados de la validación sean lo más transparentes posibles. Además, los datos de validación representan teóricamente a individuos 
-# nuevos, por lo que su análisis no se incluye en la generación de variables. Además, es importante señalar que las personas indeterminadas,
-# sin desempeño y no bancarizadas se considerarán como buenos o malos, solo que aún no se pueda predecir su comportamiento.
-
+# conjunto de modelado. Esto se hace para evitar el sobreajuste al modelo y garantizar que  los resultados de la validación sean lo más 
+# transparentes posibles. Además, los datos de validación representan teóricamente a individuos nuevos, por lo que su análisis no se 
+# incluye en la generación de variables. Además, es importante señalar que las personas indeterminadas se considerarán como buenos o malos, 
+# solo que aún no se pueda predecir su comportamiento.
 
 # Se ha decidido que la información numérica discreta (por ejemplo, NOPE_VENC) se tome únicamente del SB o SF (SB+SEPS),
 # mientras que la información numérica continua (valores de deuda) se tomará del SCE (SICOM+SF).
 
 # Esta decisión se tomó por el siguiente motivo: si consideramos las variables discretas de todo el SCE, estaríamos, por ejemplo, 
-# poniendo al mismo nivel una deuda en el SB que en SICOM. Esto podría perjudicar y beneficiar a otras personas, ya que puede haber 
+# poniendo al mismo nivel a un acreedor del SB con otro de SICOM. Esto podría perjudicar y beneficiar a otras personas, ya que puede haber 
 # deudas en retails bajas con un tiempo alto de vencimiento, mientras que puede haber deudas en SF o SB altas con poco tiempo de vencimiento.
-
 
 # ¡¡¡¡¡¡Aviso importante!!!!!
 
