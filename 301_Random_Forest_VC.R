@@ -193,7 +193,7 @@ mejores_hiperpar_1 <- select_best(grid_fit, metric = "accuracy")
 
 # --------------------------------------------------------- Random Forest Final  ----------------------------------------------------------------------------------
 
-# Se ajusta el modelo de random forest que tiene menor error y reduce el sobreajuste en nuestros datos ntree=250, mtry= 4, min.node.size=346
+# Se ajusta el modelo de random forest que tiene menor error y reduce el sobreajuste en nuestros datos ntree=132, mtry= 3, min.node.size=485
 
 
 # Filtramos la base de Modelamiento
