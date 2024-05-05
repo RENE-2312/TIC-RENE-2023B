@@ -20,67 +20,67 @@ El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest 
 
 ## Resultados
 Los resultados principales de los modelos de Credit Scoring para la estimación 
+<div style="margin: auto;">
+  <table style="border-collapse: collapse;">
+    <thead>
+      <tr style="background-color: #1e88e5; color: #ffffff;">
+        <th colspan="7" style="text-align: center;">Modelos</th>
+      </tr>
+      <tr style="background-color: #1e88e5; color: #ffffff;">
+        <th></th>
+        <th colspan="2">RGL</th>
+        <th colspan="2">RF</th>
+        <th colspan="2">XGB</th>
+      </tr>
+      <tr style="background-color: #1e88e5; color: #ffffff;">
+        <th>Métrica</th>
+        <th>Mod</th>
+        <th>Val</th>
+        <th>Mod</th>
+        <th>Val</th>
+        <th>Mod</th>
+        <th>Val</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #1e88e5; color: #ffffff;">
+        <td>KS</td>
+        <td>55.1</td>
+        <td>52.3</td>
+        <td>56.2</td>
+        <td>51.2</td>
+        <td>53.3</td>
+        <td>52.6</td>
+      </tr>
+      <tr style="background-color: #1e88e5; color: #ffffff;">
+        <td>ROC</td>
+        <td>84.5</td>
+        <td>83.6</td>
+        <td>86.1</td>
+        <td>83.6</td>
+        <td>83.9</td>
+        <td>83.5</td>
+      </tr>
+      <tr style="background-color: #1e88e5; color: #ffffff;">
+        <td>GINI</td>
+        <td>68.9</td>
+        <td>67.2</td>
+        <td>72.3</td>
+        <td>67.3</td>
+        <td>67.9</td>
+        <td>66.9</td>
+      </tr>
+      <tr style="background-color: #1e88e5; color: #ffffff;">
+        <td>IPS</td>
+        <td colspan="2">0.85%</td>
+        <td colspan="2">1.90%</td>
+        <td colspan="2">1.06%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<table style="border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #1e88e5; color: #ffffff;">
-      <th colspan="7" style="text-align: center;">Modelos</th>
-    </tr>
-    <tr style="background-color: #1e88e5; color: #ffffff;">
-      <th></th>
-      <th colspan="2">RGL</th>
-      <th colspan="2">RF</th>
-      <th colspan="2">XGB</th>
-    </tr>
-    <tr style="background-color: #1e88e5; color: #ffffff;">
-      <th>Métrica</th>
-      <th>Mod</th>
-      <th>Val</th>
-      <th>Mod</th>
-      <th>Val</th>
-      <th>Mod</th>
-      <th>Val</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background-color: #1e88e5; color: #ffffff;">
-      <td>KS</td>
-      <td>55.1</td>
-      <td>52.3</td>
-      <td>56.2</td>
-      <td>51.2</td>
-      <td>53.3</td>
-      <td>52.6</td>
-    </tr>
-    <tr style="background-color: #1e88e5; color: #ffffff;">
-      <td>ROC</td>
-      <td>84.5</td>
-      <td>83.6</td>
-      <td>86.1</td>
-      <td>83.6</td>
-      <td>83.9</td>
-      <td>83.5</td>
-    </tr>
-    <tr style="background-color: #1e88e5; color: #ffffff;">
-      <td>GINI</td>
-      <td>68.9</td>
-      <td>67.2</td>
-      <td>72.3</td>
-      <td>67.3</td>
-      <td>67.9</td>
-      <td>66.9</td>
-    </tr>
-    <tr style="background-color: #1e88e5; color: #ffffff;">
-      <td>IPS</td>
-      <td colspan="2">0.85%</td>
-      <td colspan="2">1.90%</td>
-      <td colspan="2">1.06%</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Elaboración: El autor</p>
-
+<p style="text-align: center;">Elaboración: El autor</p>
 
 
 ## Repositorio
