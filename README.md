@@ -21,7 +21,7 @@ El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest 
 ## Resultados
 Los resultados principales de los modelos de Credit Scoring para la estimación 
 <div align="center">
-  <table style="border-collapse: collapse; font-size: 8px;>
+  <table style="border-collapse: collapse; font-size: 4px;>
     <thead>
       <tr style="background-color: #1e88e5; color: #ffffff;">
         <th colspan="7" style="text-align: center;">Modelos</th>
