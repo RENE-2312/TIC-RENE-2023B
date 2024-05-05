@@ -19,7 +19,8 @@ Los datos utilizados provienen de microcréditos y créditos de consumo de una i
 El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest y XGBoost pueden reducir el monto de aprovisionamiento en comparación con la metodología tradicional de regresión logística. Esta evaluación es importante, ya que un menor aprovisionamiento, fundamentado en criterios técnicos sólidos, posibilitaría que las instituciones financieras dispongan de más capital para otorgar créditos a tasas de interés superiores a las ofrecidas por el BCE por el aprovisionamiento de pérdidas
 
 ## Resultados
-Los resultados principales de los modelos de Credit Scoring para la estimación 
+
+### Métricas de rendimiento
 <div align="center">
   <table style="border-collapse: collapse;">
     <thead>
@@ -79,7 +80,10 @@ Los resultados principales de los modelos de Credit Scoring para la estimación
     </tbody>
   </table>
 </div>
+Los tres modelos tienen buenos valores en las métricas de disciminación (KS, GINI, ROC) y además el Índice de Estabilidad Poblacional (IPS) de los modelos indica que los tres mantienen su poder discriminativo al pasar de la base de modelamiento a la de validación acorde a los estándares para modelos de Credit Scoring y por lo cual los tres modelos, son aplicables para el cálculo de las pérdidas esperadas. 
 
+### Aprovisionamiento
+En toda el horizonte de estudio (Agosto-2020 a Julio-2021), se obtuvieron los siguientes resultados para la cartera de crédito
 <div align="center">
 <table style="border-collapse: collapse;">
   <thead>
@@ -113,6 +117,9 @@ Los resultados principales de los modelos de Credit Scoring para la estimación
   </tbody>
 </table>
 </div>
+
+Así, se puede observar que el modelo XGB es el que reduce el aprovisionamiento de la pérdida, con una reducción del $0.74\\%$ y del $2.13\\%$  en el aprovisionamiento en comparación con los
+modelos de Regresión Logística y Random Forest, respectivamente.
 
 ## Repositorio
 
