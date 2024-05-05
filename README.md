@@ -149,7 +149,7 @@ El orden para ejecutar los scripts es el siguiente:
 
 Además, se puede ejecutar el proyecto de forma ordenada a través del script `001_Ejecutar_Proyecto.R`.
 
-### Contacto
+## Contacto
 
 Si tienes alguna pregunta o comentario, ¡no dudes en ponerte en contacto conmigo! :)
 
