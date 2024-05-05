@@ -4,7 +4,7 @@
 
 Este repositorio contiene los códigos necesarios para replicar los resultados de mi proyecto de titulación, el cual puede ser revisado en el siguiente enlace. El objetivo principal del proyecto fue evaluar el impacto de los algoritmos de Machine Learning (Random Forest y XGBoost) en el cálculo de pérdidas esperadas en comparación con la metodología tradicional (Regresión Logística) en una institución financiera del Ecuador.
 
-### Resumen
+## Resumen
 
 La pérdida esperada ($PE$) se calculó siguiendo las directrices de la Superintendencia de Bancos del Ecuador:
 
