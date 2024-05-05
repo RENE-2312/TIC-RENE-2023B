@@ -81,7 +81,7 @@ Los resultados principales de los modelos de Credit Scoring para la estimación
 </div>
 
 <div align="center">
-<table style="border-collapse: collapse; margin: auto;">
+<table style="border-collapse: collapse;">
   <thead>
     <tr style="background-color: #1e88e5; color: #ffffff;">
       <th colspan="4" style="text-align: center;">Modelos</th>
