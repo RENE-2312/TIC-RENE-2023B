@@ -14,11 +14,13 @@ En esta fórmula, $EAD$ representa el nivel de exposición del riesgo de crédit
 
 Durante el análisis, se consideró $LGD = 45\\%$, siguiendo el enfoque básico según Basilea II y se estimó la probabilidad de incumplimiento utilizando tres modelos de Credit Scoring: Regresión Logística (RGL), Random Forest (RF) y XGBoost (XGB), con el propósito de comparar sus resultados.
 
-Los datos utilizados provienen de microcréditos y créditos de consumo de una institución financiera ecuatoriana, y están disponibles en el archivo `InfoTratamientoInicial.RData` en la carpeta BDD de este repositorio, lo que permite la replicación de los resultados.
+Los datos utilizados provienen de microcréditos y créditos de consumo de una institución financiera ecuatoriana entre agosto de 2020 y julio de 2021. Estos datos están disponibles en el archivo *InfoTratamientoInicial.RData* en la carpeta BDD de este repositorio, lo que facilita la replicación de los resultados.
 
 El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest y XGBoost pueden reducir el monto de aprovisionamiento en comparación con la metodología tradicional de regresión logística. Esta evaluación es importante, ya que un menor aprovisionamiento, fundamentado en criterios técnicos sólidos, posibilitaría que las instituciones financieras dispongan de más capital para otorgar créditos a tasas de interés superiores a las ofrecidas por el BCE por el aprovisionamiento de pérdidas
 
 ## Resultados
+
+Los principales resultados del proyecto se presentan a continuación. Si desea obtener más detalles, le recomiendo visitar el siguiente enlace.
 
 ### Métricas de rendimiento
 <div align="center">
@@ -80,10 +82,13 @@ El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest 
     </tbody>
   </table>
 </div>
-Los tres modelos tienen buenos valores en las métricas de disciminación (KS, GINI, ROC) y además el Índice de Estabilidad Poblacional (IPS) de los modelos indica que los tres mantienen su poder discriminativo al pasar de la base de modelamiento a la de validación acorde a los estándares para modelos de Credit Scoring y por lo cual los tres modelos, son aplicables para el cálculo de las pérdidas esperadas. 
+
+Los tres modelos muestran valores sólidos en las métricas de discriminación (KS, GINI, ROC). Además, el Índice de Estabilidad Poblacional (IPS) indica que mantienen su capacidad discriminativa al trasladarse de la base de modelado a la de validación, cumpliendo con los estándares para modelos de Credit Scoring. Por lo tanto, los tres modelos son aplicables para el cálculo de las pérdidas esperadas.
 
 ### Aprovisionamiento
-En toda el horizonte de estudio (Agosto-2020 a Julio-2021), se obtuvieron los siguientes resultados para la cartera de crédito
+
+Durante todo el horizonte de estudio, se obtuvieron los siguientes resultados para la cartera de crédito:
+
 <div align="center">
 <table style="border-collapse: collapse;">
   <thead>
@@ -118,8 +123,7 @@ En toda el horizonte de estudio (Agosto-2020 a Julio-2021), se obtuvieron los si
 </table>
 </div>
 
-Así, se puede observar que el modelo XGB es el que reduce el aprovisionamiento de la pérdida, con una reducción del $0.74\\%$ y del $2.13\\%$  en el aprovisionamiento en comparación con los
-modelos de Regresión Logística y Random Forest, respectivamente.
+De esta manera, se observa que el modelo XGB es el que logra la mayor reducción en el aprovisionamiento de pérdidas, con una disminución del 0.74% y 2.13% en comparación con los modelos de Regresión Logística y Random Forest, respectivamente.
 
 ## Repositorio
 
