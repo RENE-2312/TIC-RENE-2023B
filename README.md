@@ -16,7 +16,7 @@ Durante el análisis, se consideró $LGD = 45\\%$, siguiendo el enfoque básico 
 
 Los datos utilizados provienen de microcréditos y créditos de consumo de una institución financiera ecuatoriana, y están disponibles en el archivo `InfoTratamientoInicial.RData` en la carpeta BDD de este repositorio, lo que permite la replicación de los resultados.
 
-El objetivo principal del proyecto es evaluar si los enfoques de Random Forest y XGBoost pueden reducir el monto de aprovisionamiento en comparación con la metodología tradicional de regresión logística. Esta evaluación es importante, ya que un menor aprovisionamiento, fundamentado en criterios técnicos sólidos, posibilitaría que las instituciones financieras dispongan de más capital para otorgar créditos a tasas de interés superiores a las ofrecidas por el BCE por el aprovisionamiento de pérdidas
+El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest y XGBoost pueden reducir el monto de aprovisionamiento en comparación con la metodología tradicional de regresión logística. Esta evaluación es importante, ya que un menor aprovisionamiento, fundamentado en criterios técnicos sólidos, posibilitaría que las instituciones financieras dispongan de más capital para otorgar créditos a tasas de interés superiores a las ofrecidas por el BCE por el aprovisionamiento de pérdidas
 
 ## Resultados
 Los resultados principales de los modelos de Credit Scoring para la estimación 
