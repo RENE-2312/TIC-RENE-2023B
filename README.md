@@ -20,6 +20,62 @@ El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest 
 
 ## Resultados
 Los resultados principales de los modelos de Credit Scoring para la estimación 
+
+<table>
+  <thead>
+    <tr>
+      <th>Métrica</th>
+      <th>RGL Mod</th>
+      <th>RGL Val</th>
+      <th>RF Mod</th>
+      <th>RF Val</th>
+      <th>XGB Mod</th>
+      <th>XGB Val</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KS</td>
+      <td>55.1</td>
+      <td>52.3</td>
+      <td>56.2</td>
+      <td>51.2</td>
+      <td>53.3</td>
+      <td>52.6</td>
+    </tr>
+    <tr>
+      <td>ROC</td>
+      <td>84.5</td>
+      <td>83.6</td>
+      <td>86.1</td>
+      <td>83.6</td>
+      <td>83.9</td>
+      <td>83.5</td>
+    </tr>
+    <tr>
+      <td>GINI</td>
+      <td>68.9</td>
+      <td>67.2</td>
+      <td>72.3</td>
+      <td>67.3</td>
+      <td>67.9</td>
+      <td>66.9</td>
+    </tr>
+    <tr>
+      <td>IPS</td>
+      <td>0.85%</td>
+      <td>-</td>
+      <td>1.90%</td>
+      <td>-</td>
+      <td>1.06%</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Elaboración: El autor</p>
+
+
 ## Repositorio
 
 La estructura del repositorio es la siguiente:
