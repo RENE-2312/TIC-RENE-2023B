@@ -21,7 +21,7 @@ El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest 
 ## Resultados
 Los resultados principales de los modelos de Credit Scoring para la estimación 
 <div align="center">
-  <table style="border-collapse: collapse; font-size: 4px;">
+  <table style="border-collapse: collapse;">
     <thead>
       <tr style="background-color: #1e88e5; color: #ffffff;">
         <th colspan="7" style="text-align: center;">Modelos</th>
@@ -80,7 +80,39 @@ Los resultados principales de los modelos de Credit Scoring para la estimación
   </table>
 </div>
 
-
+<div align="center">
+<table style="border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #1e88e5; color: #ffffff;">
+      <th colspan="4" style="text-align: center;">Modelos</th>
+    </tr>
+    <tr style="background-color: #1e88e5; color: #ffffff;">
+      <th></th>
+      <th>RGL</th>
+      <th>RF</th>
+      <th>XGB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #1e88e5; color: #ffffff;">
+      <td>PE ($)</td>
+      <td>2,825,789</td>
+      <td>2,865,695</td>
+      <td>2,804,761</td>
+    </tr>
+    <tr style="background-color: #1e88e5; color: #ffffff;">
+      <td>EAD ($)</td>
+      <td colspan="3" style="text-align: center;">79,615,050</td>
+    </tr>
+    <tr style="background-color: #1e88e5; color: #ffffff;">
+      <td>r_Pérdida (%)</td>
+      <td>3.549315</td>
+      <td>3.599439</td>
+      <td>3.522903</td>
+    </tr>
+  </tbody>
+</table>
+<div align="center">
 
 ## Repositorio
 
