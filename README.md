@@ -83,11 +83,11 @@ Los principales resultados del proyecto se presentan a continuación. Si desea o
   </table>
 </div>
 
-Los tres modelos muestran valores sólidos en las métricas de discriminación (KS, GINI, ROC). Además, el Índice de Estabilidad Poblacional (IPS) indica que mantienen su capacidad discriminativa al trasladarse de la base de modelado a la de validación, cumpliendo con los estándares para modelos de Credit Scoring. Por lo tanto, los tres modelos son aplicables para el cálculo de las pérdidas esperadas.
+Los tres modelos muestran valores sólidos en las métricas de discriminación (KS, GINI, ROC). Además, el Índice de Estabilidad Poblacional (IPS) indica que mantienen su capacidad discriminativa al trasladarse de la base de modelado (Mod) a la de validación (Val), cumpliendo con los estándares para modelos de Credit Scoring. Por lo tanto, los tres modelos son aplicables para el cálculo de las pérdidas esperadas.
 
 ### Aprovisionamiento
 
-Durante todo el horizonte de estudio, se obtuvieron los siguientes resultados para la cartera de crédito:
+Durante todo el horizonte de estudio, se obtuvieron los siguientes resultados para la cartera de crédito en la base de validación:
 
 <div align="center">
 <table style="border-collapse: collapse;">
