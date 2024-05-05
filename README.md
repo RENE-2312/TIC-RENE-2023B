@@ -2,20 +2,24 @@
 
 ## *Evaluación de modelos de machine learning aplicados al cálculo de pérdidas esperadas en entidades de microfinanzas*
 
-Este repositorio contiene los códigos necesarios para replicar los resultados de mi proyecto de titulación, el cual puede ser revisado en el siguiente enlace. El objetivo principal del proyecto fue evaluar el impacto de los algoritmos de Machine Learning (Random Forest y XGBoost) en el cálculo de las pérdidas esperadas en comparación con la metodología tradicional (Logit). Para ello, se trabajó con información de microcréditos y créditos de consumo de una institución financiera ecuatoriana. Los datos necesarios para replicar los resultados se encuentran en el archivo `InfoTratamientoInicial.RData`, almacenado en la carpeta BDD de este repositorio.
+Este repositorio contiene los códigos necesarios para replicar los resultados de mi proyecto de titulación, el cual puede ser revisado en el siguiente enlace. El objetivo principal del proyecto fue evaluar el impacto de los algoritmos de Machine Learning (Random Forest y XGBoost) en el cálculo de pérdidas esperadas en comparación con la metodología tradicional (Regresión Logística) en una institución financiera del Ecuador.
 
-La pérdida esperada, $PE$, se estimó de acuerdo con lo determinado por la Superintendencia de Bancos del Ecuador:
+### Resumen
 
-$$ PE = EAD \cdot LGD \cdot PD$$
+La pérdida esperada ($PE$) se calculó siguiendo las directrices de la Superintendencia de Bancos del Ecuador:
 
-Donde:
+$$PE = EAD \cdot LGD \cdot PD$$
 
-- $EAD$ es el nivel de exposición del riesgo de crédito.
-- $LGD$ es la severidad de la pérdida.
-- $PD$ es la probabilidad de incumplimiento.
+En esta fórmula, $EAD$ representa el nivel de exposición del riesgo de crédito, $LGD$ la severidad de la pérdida y $PD$ la probabilidad de incumplimiento. Este monto debe ser aprovisionado por las instituciones financieras en el Banco Central del Ecuador (BCE) a la tasa de interés pasiva determinada por este organismo.
 
-Se siguió el enfoque básico según Basilea II, por lo que se tomo $LGD = 45\\%$ y se determinó la probabilidad de incumplimiento a través de tres modelos de Credit Scoring: Regresión Logística (RGL), Random Forest (RF) y XGBoost (XGB), con el propósito de comparar sus resultados.
+Durante el análisis, se consideró $LGD = 45\\%$, siguiendo el enfoque básico según Basilea II y se estimó la probabilidad de incumplimiento utilizando tres modelos de Credit Scoring: Regresión Logística (RGL), Random Forest (RF) y XGBoost (XGB), con el propósito de comparar sus resultados.
 
+Los datos utilizados provienen de microcréditos y créditos de consumo de una institución financiera ecuatoriana, y están disponibles en el archivo `InfoTratamientoInicial.RData` en la carpeta BDD de este repositorio, lo que permite la replicación de los resultados.
+
+El objetivo principal del proyecto es evaluar si los enfoques de Random Forest y XGBoost pueden reducir el monto de aprovisionamiento en comparación con la metodología tradicional de regresión logística. Esta evaluación es importante, ya que un menor aprovisionamiento, fundamentado en criterios técnicos sólidos, posibilitaría que las instituciones financieras dispongan de más capital para otorgar créditos a tasas de interés superiores a las ofrecidas por el BCE por el aprovisionamiento de pérdidas
+
+## Resultados
+Los resultados principales de los modelos de Credit Scoring para la estimación 
 ## Repositorio
 
 La estructura del repositorio es la siguiente:
@@ -39,3 +43,8 @@ El orden para ejecutar los scripts es el siguiente:
 7. `400_Graficos.R`: Genera gráficos para el documento de la TIC.
 
 Además, se puede ejecutar el proyecto de forma ordenada a través del script `001_Ejecutar_Proyecto.R`.
+
+### Contacto
+
+Si tienes alguna pregunta o comentario, ¡no dudes en ponerte en contacto conmigo! :)
+
