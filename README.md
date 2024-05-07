@@ -2,7 +2,7 @@
 
 ## *Evaluación de modelos de machine learning aplicados al cálculo de pérdidas esperadas en entidades de microfinanzas*
 
-Este repositorio contiene los códigos necesarios para replicar los resultados de mi proyecto de titulación, el cual puede ser revisado en el siguiente enlace. El objetivo principal del proyecto fue evaluar el impacto de los algoritmos de Machine Learning (Random Forest y XGBoost) en el cálculo de pérdidas esperadas en comparación con la metodología tradicional (Regresión Logística) en una institución financiera del Ecuador.
+Este repositorio contiene los códigos para replicar los resultados de mi proyecto de titulación. Puedes revisar el proyecto en este enlace. El objetivo fue evaluar cómo los algoritmos de Machine Learning (Random Forest y XGBoost) influyen en el cálculo de pérdidas esperadas, en comparación con la metodología tradicional (Regresión Logística), en una institución financiera del Ecuador.
 
 ## Resumen
 
