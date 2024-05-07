@@ -20,7 +20,7 @@ El objetivo principal del proyecto fue evaluar si los enfoques de Random Forest 
 
 ## Resultados
 
-Los principales resultados del proyecto se presentan a continuación. Si desea obtener más detalles, te recomiendo visitar el siguiente enlace.
+Los principales resultados del proyecto se presentan a continuación. Si deseas obtener más detalles, te recomiendo visitar el siguiente enlace.
 
 ### Métricas de rendimiento
 <div align="center">
